@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/404.html</loc>
+  </url>
+  <url>
+    <loc>/authors.html</loc>
+  </url>
+  <url>
+    <loc>/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/count_events.html</loc>
+  </url>
+  <url>
+    <loc>/reference/create_is_aba.html</loc>
+  </url>
+  <url>
+    <loc>/reference/generate_codes.html</loc>
+  </url>
+  <url>
+    <loc>/reference/generate_length_aba.html</loc>
+  </url>
+  <url>
+    <loc>/reference/generate_sequences.html</loc>
+  </url>
+  <url>
+    <loc>/reference/index.html</loc>
+  </url>
+</urlset>

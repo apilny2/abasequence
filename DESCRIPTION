@@ -1,0 +1,11 @@
+Package: abasequence
+Title: Coding ABA patterns for sequence data
+Version: 0.1.0
+Authors@R: 
+    person("Andrew", "Pilny", , "andy.pilny@uky.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6603-5490"))
+Description: The abasequence package provides a suite of functions for analyzing sequences of events. It allows users to generate and code sequences based on predefined rules, with a special focus on the identification of 'ABA'-coded sequences. Additionally, the package offers the ability to calculate the length of consecutive 'ABA'-coded sequences sharing common elements.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
