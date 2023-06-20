@@ -24,11 +24,14 @@ create_is_aba: Create a dummy variable indicating whether a sequence represents 
 generate_length_aba: Calculate the length of consecutive ABA-coded sequences.
 generate_sequences: Generate sequential data from a vector.
 
-**Examples**
+Examples
 Here are a few examples of how to use the functions in the abasequence package:
 
 # Create a sequence of events
 sequence <- c(3, 2, 3, 1, 4, 2, 4, 1, 4, 3, 2, 3)
+
+# Generate sequences from a vector
+sequences <- generate_sequences(sequence, 3)
 
 # Count the events
 event_counts <- count_events(sequence)
@@ -42,8 +45,6 @@ is_aba <- create_is_aba(codes)
 # Calculate the length of consecutive ABA-coded sequences
 length_aba <- generate_length_aba(is_aba)
 
-# Generate sequences from a vector
-sequences <- generate_sequences(sequence, 3)
 
 Contributing
 Contributions to abasequence are welcome. If you find any issues or have suggestions for improvements, please open an issue on the GitHub repository.
