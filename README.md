@@ -10,7 +10,7 @@ Installation
 You can install `abasequence` from GitHub using the `devtools` package:
 
 ```R
-devtools::install_github("yourusername/abasequence")
+devtools::install_github("apilny2/abasequence")
 abasequence
 
 To use the abasequence package, first load it into your R session:
